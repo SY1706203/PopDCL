@@ -651,7 +651,7 @@ if __name__ == '__main__':
         model = SimpleX_batch(args, data)
 
     if args.modeltype == 'PopDCL_LOSS_batch':
-        model = LGN(args, data)
+        model = PopDCL_LOSS_batch(args, data)
 
     model.cuda(device)
 
